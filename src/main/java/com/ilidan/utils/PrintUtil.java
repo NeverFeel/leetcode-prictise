@@ -1,4 +1,7 @@
 package com.ilidan.utils;
+
+import java.util.Arrays;
+
 /**
  * 打印工具类
  * @author ilidan
@@ -13,10 +16,7 @@ public class PrintUtil {
         if (nums == null) {
             return;
         }
-
-        for (int num : nums) {
-            System.out.println(num);
-        }
+        System.out.println(Arrays.toString(nums));
     }
 
 }
